@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image {
+  @apply cursor-pointer transition-transform duration-300 ease-in-out;
+}
+
+.active {
+  @apply scale-125 border-4 border-gray-400;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Vazirmatn", serif;
+}
